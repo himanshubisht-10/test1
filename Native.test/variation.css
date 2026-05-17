@@ -1,0 +1,687 @@
+    /*build page without any data*/
+      .homepage .hero{
+     	    min-height: 240px !important;
+    background: #F5F5F7;
+    padding-bottom: 42px;
+
+      }
+  .homepage .hero .header-form form .form-group {
+  margin-left: 0 !important;
+  width: 28%;
+  margin: 0 10px !important;
+  float: none;
+}
+    
+     .homepage .hero .header-form {
+  max-width: 1262px;
+  margin: 10px auto;
+  padding: 20px;
+  width: 100% !important;
+  background: #fff;
+}
+
+  .homepage .hero .header-form form .form-group button {
+  background-color: rgb(247, 148, 30) !important;
+  border: 1px solid rgb(247, 148, 30) !important;
+}
+
+  .homepage .hero .header-form form {
+  display: flex;
+  align-items: flex-end;
+}
+
+  .homepage .logo-main svg {
+  fill: #000 !important;
+}
+  .homepage .cre-t-19-buildPageWithoutData #app .secondary-links {
+  display: none !important;
+}
+  .homepage main .hero h1 {
+  color: #000 !important;
+}
+    
+                
+               .homepage .trust-pilot-box {
+    display: none;
+}
+   
+
+
+    
+ .homepage .header-main .logo-main a svg{
+    fill:#000;
+
+
+}
+
+ .homepage input#tripdatepicker::placeholder {
+    background: white;
+    font-size: 12px;
+}
+
+  .homepage input#people-select::placeholder {
+    font-size: 12px;
+    color: white;
+}
+
+  .homepage select.form-control.margin-top {
+    font-size: 12px;
+    color:white;
+  
+}
+
+html body main form .form-group:has(#tripdatepicker),
+html body main form .form-group:has(#people){
+     color: #000 !important;
+  font-size: 12px !important;
+  position:relative;
+
+}
+
+html body main form .form-group:has(#tripdatepicker)::before {
+  content: "Welche Daten peilt ihr an?";
+   color: #000;
+  text-align: left;
+  display: block;
+  font-size: 12px;
+}
+
+html body main form .form-group:has(#people-select)::before {
+  content: "Wie viele kommen mit?";
+   color: #000;
+  text-align: left;
+  display: block;
+  font-size: 12px;
+}
+
+html body main form .form-group:has([name="destination_id"])::before {
+	position:relative;
+  content: "JGA Reiseziel wählen"; 
+  color: #000;
+  text-align: left;
+  display: block;
+  font-size: 12px;
+}
+
+/* common styling */
+
+ .homepage .cre-t-19-buildPageWithoutData .hero .content .header-form .input-fifty-fifty {
+  margin: 0 1% !important;
+}
+
+/* Trustpilot  Section Styling*/
+ .homepage .cre-t-19-trust-pilot-box .star {
+  color: #00b67a !important;
+  font-size: 20px;
+}
+ .homepage .cre-t-19-trust-pilot-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #000;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+/* Planning Section Styling */
+ .homepage .planning-section-items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+ .homepage section.screen-section {
+    background: #FFFFFF;
+   padding: 60px 40px;
+    opacity: 1;
+}
+ .homepage .container {
+    max-width: 1200px;
+    margin: auto;
+}
+ .homepage .card-img {
+    width: 100%;
+    max-width: 30px;
+}
+
+ .homepage img {
+    width: 100%;
+}
+
+ .homepage .heading {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+ .homepage .card {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+     flex-wrap: wrap; 
+}
+
+ .homepage .card-content {
+    opacity: 1;
+    padding: 20px 15px;
+    gap: 10px;
+    border-radius: 5px;
+    border-width: 0.8px;
+    width: 100%;
+    max-width: 216px;
+    background: #F5F5F7;
+    border-top: 0.8px solid #D4D6D9;
+}
+ .homepage .card-body h3{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+ .homepage .card-body p{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+@media (max-width: 600px) {
+     .homepage .card {
+        flex-direction: column;
+        align-items:center;
+    }   .homepage .card-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    }
+
+
+
+
+ .homepage section.screencapture-section {
+    padding: 80px 20px;
+    background: #F5F5F7;
+}
+.homepage .container {
+    max-width: 1200px;
+    margin: auto;
+}
+  .homepage section.screencapture-section .heading{
+        width: 100%;
+    max-width: 689px;
+
+}
+
+ .heading h2 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+       
+
+}
+
+  .homepage .heading p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+ .homepage .card-group {
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+ .homepage .icon{
+    opacity: 1;
+    gap: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 346px;
+}
+ .homepage .icon-body {
+    width: 100%;
+    max-width: 377px;
+}
+  .homepage .icon-body img {
+    width: 100%;
+    display:block;
+}
+
+ .homepage .icon-text {
+    background: #F7941E33;
+    padding: 1px 20px 40px 20px;
+    border-radius:5px;
+    text-align: center;
+    min-height: 267px;
+    padding-bottom: 6px;
+}
+  .homepage .icon-text h3 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 10px;
+
+} .homepage .icon-text span {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+} .homepage .icon-text p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    color: #000;
+    margin-top:6px;
+}
+ .homepage .accordion-section {
+    padding: 80px 20px;
+    background: #fff;
+}
+ .homepage .container {
+    max-width: 1200px;
+    margin: auto;
+}
+ .homepage .heading h2 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-align: center;
+}
+
+.homepage .accordion {
+    border-bottom: 0.8px solid #D4D6D9;
+    padding:30px 20px;
+}
+ .homepage h3 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0%;
+    color: #000000;
+}.homepage .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* ✅ IMPORTANT FIX */
+    cursor: pointer;
+    padding-right: 30px; /* space for + icon */
+    margin-bottom:12px;
+}
+/* + icon */
+.homepage .accordion-header::after{
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    font-size: 28px;
+    font-weight:400;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+/* when active → becomes minus */
+.homepage .accordion-text.show .accordion-header::after{
+    content: "+";
+    transform: translateY(-50%) rotate(45deg); /* + becomes × */
+
+}
+
+.homepage .accordion-collapse {
+    display: none;
+}
+.homepage .accordion-text.show .accordion-collapse{
+    display:block;
+}
+
+ .homepage .form-group .has-icon .icon {
+    pointer-events: none;
+    position: absolute;
+    color: #1e1f22;
+    right: 0px;
+    top: 0px;
+/* }
+.homepage .hero, .abouthero {
+    min-height: 862px; */
+}
+@media (max-width: 600px) {
+ .homepage form {
+    display:flex;
+    
+    justify-content: center;
+    gap:20px;
+  
+     flex-wrap: wrap; 
+}
+ .homepage .form-group {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+} .homepage select[name="destination_id"] {
+	font-size:0px;
+}
+
+@media (max-width: 991px) {
+    .homepage .hero.fit-viewport div.content {
+height: calc(100vh - 50px) !important;
+}
+}
+
+/*buildweekend page without any data*/
+
+  .buildWeekend .header-main .logo-main a svg {
+    /* height: 100%; */
+    fill: #000;
+    transition: fill .5s ease;
+}
+ .buildWeekend .header-main {
+    color:#000;
+    background-color: #fff;
+}
+
+ .buildWeekend a {
+    /* color: inherit; */
+    color: #000;
+}@media (min-width: 1200px) {
+     .buildWeekend .header-main {
+        padding-left: 40px;
+        padding-right: 40px;
+        background: #fff;
+    }
+}
+
+
+ .buildWeekend img.hero-image {
+    visibility: hidden;
+}
+ .buildWeekend .overlay-image .content {
+    text-align: center;
+    position: absolute;
+    color: #000;
+}
+
+ .buildWeekend button.button-dark, .button.button-dark {
+    border: solid 1px #000000;
+    background: black;
+    display:block;
+    color:#fff;
+}
+.buildWeekend span.icon.la.la-phone {
+    display: block;
+}
+
+
+ .buildWeekend .overlay-image .content .header-form, .hero .content .header-form {
+    /* margin: 50px auto; */
+    /* width: 100%; */
+    background: white;
+    border-radius: 6px;
+}
+
+
+ .buildWeekend .header-main .secondary-links > div + div {
+    padding: 0 10px;
+    display: block;
+   
+
+}
+
+
+ .buildWeekend.header-main .secondary-links > div{
+    display:block !important;
+}
+
+/* 
+html body.overlay-image .content .header-form, .hero .content .header-form {
+     margin: 50px auto; 
+    width: 700px;
+    background: white;
+   
+    border-radius: 6px; */
+    
+
+@media (max-width: 768px) {
+    main.buildWeekend .overlay-image .content, main.loginPage .overlay-image .content {
+        top: 180px;
+        height: 170px;
+    }
+}
+
+@media (min-width: 1480px) {
+    .buildWeekend.itinerary-grid {
+        width: 1166px;
+    }
+}
+@media (min-width: 1480px) {
+    .buildWeekend.itinerary-grid {
+        width: 1515px;
+        background: white;
+        padding: 60px 141px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .buildWeekend h4, .font-size-4 {
+        font-size: 20px;
+        font-size: 2rem;
+        display: none;
+    }
+}.buildWeekend.view-accommodation-button {
+    border: solid 1px #000000;
+    display: block;
+    color: #fff;
+    background: #000000B2;
+}.buildWeekend button.button-gradient, .button.button-gradient, .cms-content .button {
+   background: #F5F5F7;
+
+
+
+}
+
+
+.buildWeekend.hide-mobile button.button-gradient, .button.button-gradient, .cms-content .button {
+        background-image: linear-gradient(to right, #F7941E, #FF1D25);
+}
+
+.buildWeekend.header-main .secondary-links {
+    display: inline-flex !important;
+}
+
+@media (min-width: 992px) {
+    .buildWeekend .itinerary-grid .col:first-child {
+        /* border-bottom: none; */
+        margin-bottom: 0;
+        border: 1px solid #D4D6D9;
+        height: 572px;
+    }
+
+
+}
+.buildWeekend.font-size-4.margin-top.margin-bottom::after {
+    content: "0 Aktivitäten\A Noch keine Aktivitäten hinzugefügt. Wähle jetzt die ersten Aktivitäten für euer Wochenende aus.";
+    font-family: Rubik;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color:#000;
+line-height: 26px;
+letter-spacing: 0%;
+
+}.buildWeekend.font-size-4.margin-top.margin-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.buildWeekend.font-size-4.margin-top.margin-bottom::after {
+    content: "⌃";
+    font-size: 18px;
+    color: #000;
+    display: inline-block;
+    transition: transform 0.3s ease;
+        transform: rotate(180deg);
+}
+.buildWeekend a.accordion-primary {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color: #D4D6D9;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.buildWeekend a.accordion-secondary{
+        font-family: Rubik;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #D4D6D9;
+
+
+}
+.buildWeekend div.hide-desktop.hide-tablet > a.button.button-dark.button-small {
+    display: none;
+}
+
+
+.buildWeekend .row.accommodation.margin-top.accommodation-selection-question {
+    display: none;
+}
+.buildWeekend.row.day {
+    display: block;
+
+
+}
+.buildWeekend a.accordion-secondary.active{
+    background-color:#000;
+}
+
+.buildWeekend a.accordion-primary.active{
+    background-color: #000; 
+
+}
+.buildWeekend .hide-mobile h2 { 
+    display: none; 
+}
+
+
+
+@media (min-width: 1200px) {
+    .buildWeekend .row {
+        /* margin-bottom: 40px; */
+       
+        border: 0.8px solid #D4D6D9;
+        padding: 20px 15px;
+       
+        margin-top: 35px;
+    }
+}@media (min-width: 768px) {
+   .buildWeekend main.buildWeekend .hero-image {
+        
+        min-height: 430px;
+    }
+}
+.buildWeekend .accordion-button {
+    display: flex;
+}
+@media (min-width: 768px) {
+    .buildWeekend .itinerary-grid .sidebar, .itinerary-grid .row>.title, .itinerary-grid .row>.sub-title, .itinerary-grid .complete-itinerary>.text-link {
+        padding-left: 0;
+        padding-right: 0;
+        display: none;
+    }
+}
+.buildWeekend .slidebar {
+    width: 310px;
+    opacity: 1;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 20px;
+    border: 1px solid #D4D6D9;
+    
+}
+.buildWeekend .slidebar-head {
+    width: 100%;
+    max-width: 233px;
+    margin-bottom: 10px;
+} 
+ .buildWeekend .slidebar-head h2 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.buildWeekend .avatar-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.buildWeekend .avatar-image img {
+    width: 100%;
+}
+
+.buildWeekend .slidebar-text p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.buildWeekend button.button-small-dark {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    text-decoration-skip-ink: auto;
+    border: none;
+    color: #006AA7;
+    background: none;
+}
