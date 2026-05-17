@@ -1,0 +1,116 @@
+.section--hero .button-wrapper a{
+  background-color: orange !important;
+  color:black;
+
+}
+      .announcement-bar{
+        background: grey !important;
+      }
+.header__logo-wrapper{
+   text-transform: uppercase;
+   color:blue;
+   font-size: 35px;
+   font-weight: 500;
+}
+
+.promo-bar {
+  padding: 11px;
+  background:blue;
+}
+
+.promo-bar .container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.promo-bar .navitems ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.promo-bar .navitems li {
+  list-style: none;
+}
+
+.promo-bar .navitems a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+body.show-modal .card,
+body.show-modal .modal-overlay{
+    display: block !important;
+}
+
+
+
+.card-container{
+	z-index: 10000000;
+	position: relative;
+}
+
+.modal-overlay{
+	      width: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999999;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    top: 20%;
+    left: 33%;
+    border: 0.8px solid grey;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: none;
+    
+    
+
+}
+.header {
+    background: #333;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 27px;
+}
+.body {
+    padding: 35px 33px;
+    background: wheat;
+}
+
+.card-subtext {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button.primary-btn {
+    padding: 11px 24px;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+}
