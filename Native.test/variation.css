@@ -706,3 +706,239 @@ letter-spacing: 0%;
     color: #006AA7;
     background: none;
 }
+
+/* ccs sytle in the second of buildpage */
+
+ .buildWeekend section.screen-section {
+    background: #FFFFFF;
+   padding: 60px 40px;
+    opacity: 1;
+}
+ .buildWeekend .container {
+    max-width: 1200px;
+    margin: auto;
+}
+ .buildWeekend .card-img {
+    width: 100%;
+    max-width: 30px;
+}
+
+.buildWeekend img {
+    width: 100%;
+}
+
+.buildWeekend .heading {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+ .buildWeekend .card {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+     flex-wrap: wrap; 
+}
+
+ .buildWeekend .card-content {
+    opacity: 1;
+    padding: 20px 15px;
+    gap: 10px;
+    border-radius: 5px;
+    border-width: 0.8px;
+    width: 100%;
+    max-width: 216px;
+    background: #F5F5F7;
+    border-top: 0.8px solid #D4D6D9;
+}
+ .buildWeekend .card-body h3{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+ .buildWeekend .card-body p{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+@media (max-width: 600px) {
+    .buildWeekend .card {
+        flex-direction: column;
+        align-items:center;
+    }  .buildWeekend .card-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    }
+
+
+
+
+  section.screencapture-section {
+    padding: 80px 20px;
+    background: #F5F5F7;
+}
+.buildWeekend .container {
+    max-width: 1200px;
+    margin: auto;
+}
+.buildWeekend section.screencapture-section .heading{
+        width: 100%;
+    max-width: 689px;
+
+}
+
+ .buildWeekend h2 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+       
+
+}
+
+ .buildWeekend .heading p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+ .buildWeekend .card-group {
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+ .buildWeekend.icon{
+    opacity: 1;
+    gap: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 346px;
+}
+ .buildWeekend .icon-body {
+    width: 100%;
+    max-width: 377px;
+}
+  .buildWeekend .icon-body img {
+    width: 100%;
+    display:block;
+}
+
+ .buildWeekend .icon-text {
+    background: #F7941E33;
+    padding: 1px 20px 40px 20px;
+    border-radius:5px;
+    text-align: center;
+    min-height: 267px;
+    padding-bottom: 6px;
+}
+   .icon-text h3 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 10px;
+
+}  .icon-text span {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+} .buildWeekend .icon-text p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    color: #000;
+    margin-top:6px;
+}
+ .buildWeekend .accordion-section {
+    padding: 80px 20px;
+    background: #fff;
+}
+ .buildWeekend .container {
+    max-width: 1200px;
+    margin: auto;
+}
+.buildWeekend .heading h2 {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-align: center;
+}
+
+.buildWeekend .accordion {
+    border-bottom: 0.8px solid #D4D6D9;
+    padding:30px 20px;
+}
+ .buildWeekend h3 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0%;
+    color: #000000;
+}.buildWeekend .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* ✅ IMPORTANT FIX */
+    cursor: pointer;
+    padding-right: 30px; /* space for + icon */
+    margin-bottom:25px;
+    max-height:0;
+}
+/* + icon */
+.buildWeekend .accordion-header::after{
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    font-size: 20px;
+    font-weight:300;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+/* when active → becomes minus */
+.buildWeekend .accordion-text.show .accordion-header::after{
+    content: "+";
+    transform: translateY(-50%) rotate(45deg); /* + becomes × */
+
+}
+
+.buildWeekend .accordion-collapse {
+    display: none;
+}
+.buildWeekend .accordion-text.show .accordion-collapse{
+    display:block;
+}
