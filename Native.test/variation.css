@@ -7,9 +7,20 @@
       }
   .homepage .hero .header-form form .form-group {
   margin-left: 0 !important;
-  width: 28%;
+ 
   margin: 0 10px !important;
   float: none;
+}
+.secondary-links {
+    display: none !important;
+} 
+
+
+ .homepage a.telephone-number {
+    display: none!important;
+}
+ .homepage .hide-mobile.button.button-dar{
+    display:none!important;
 }
     
      .homepage .hero .header-form {
@@ -32,12 +43,17 @@
 
   .homepage .logo-main svg {
   fill: #000 !important;
+  display: none !important;
 }
   .homepage .cre-t-19-buildPageWithoutData #app .secondary-links {
   display: none !important;
 }
   .homepage main .hero h1 {
   color: #000 !important;
+}
+
+h1.font-size-1.bold.margin-bottom {
+    color: #000;
 }
     
                 
@@ -309,7 +325,7 @@ html body main form .form-group:has([name="destination_id"])::before {
 }
  .homepage .heading h2 {
     font-family: Rubik;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 26px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -334,7 +350,8 @@ html body main form .form-group:has([name="destination_id"])::before {
     position: relative; /* ✅ IMPORTANT FIX */
     cursor: pointer;
     padding-right: 30px; /* space for + icon */
-    margin-bottom:12px;
+    margin-bottom:25px;
+    max-height:0;
 }
 /* + icon */
 .homepage .accordion-header::after{
@@ -343,8 +360,8 @@ html body main form .form-group:has([name="destination_id"])::before {
     right: 0;
     top: 50%;
     transform: translateY(-50%) rotate(0deg);
-    font-size: 28px;
-    font-weight:400;
+    font-size: 20px;
+    font-weight:300;
     color: #000;
     transition: 0.3s ease;
 }
@@ -404,10 +421,14 @@ height: calc(100vh - 50px) !important;
     /* height: 100%; */
     fill: #000;
     transition: fill .5s ease;
+    display:block;
 }
  .buildWeekend .header-main {
     color:#000;
     background-color: #fff;
+}
+.buildWeekend.secondary-links{
+	display:block;
 }
 
  .buildWeekend a {

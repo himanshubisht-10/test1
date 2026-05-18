@@ -205,7 +205,7 @@ waitForElement('.screencapture-section', function () {
                 </div>
                  <div class="accordion">
                     <div class="accordion-text">
-                        <div class="accordion-header">Warum brauchen wir einen Re
+                        <div class="accordion-header"><h3> brauchen wir einen Re
                             iseberater?</h3>
                          
 
@@ -263,28 +263,31 @@ waitForElement('.screencapture-section', function () {
     document.querySelector('.screencapture-section').insertAdjacentHTML('afterend', nextsection);
 
 });
-document.addEventListener("DOMContentLoaded", function () {
-    const accordions = document.querySelectorAll(".homepage .accordion-text");
+});
 
-    accordions.forEach((accordion) => {
-        const header = accordion.querySelector(".accordion-header");
+      document.querySelectorAll('.homepage .accordion-header').forEach((header) => {
+    header.addEventListener('click', function () {
 
-        header.addEventListener("click", function () {
-            // close all other accordions
-            accordions.forEach((item) => {
-                if (item !== accordion) {
-                    item.classList.remove("show");
-                }
-            });
+        const item = this.parentElement; // accordion-text
 
-            // toggle current accordion
-            accordion.classList.toggle("show");
+        // close others
+        document.querySelectorAll('.homepage .accordion-text').forEach(el => {
+            if (el !== item) {
+                el.classList.remove('show');
+            }
         });
+
+        // toggle current
+        item.classList.toggle('show');
     });
 });
-    waitForElement('.content h1',function(){
-        document.querySelector('.content h1').innerHTML='Plane deinen Prag JGA';
+
+
+waitForElement('.content h1', function () {
+    document.querySelector('.content h1').innerHTML = 'Plane deinen Prag JGA';
+
     }); 
+
 
     
     waitForElement('.content h1', function () {
@@ -355,6 +358,7 @@ $('.accordion-secondary').click(function (e) {
     $('.accordion-button a').removeClass('active');
     $(this).addClass('active');
 });
+
 // col sidebar 
 
 
@@ -381,9 +385,7 @@ const classList = `
 </div>
 `;
 
-
- waitForElement('.slidebar', function () {
+//waitForElement('.slidebar', function () {
     
 document.querySelector('.sidebar').insertAdjacentHTML('beforebegin', classList);
- });
-});
+
