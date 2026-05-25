@@ -1,0 +1,345 @@
+/* planning-section  style*/
+        section.planning-section {
+    padding: 120px 60px;
+    background: #fff;
+}
+.planning-section-container {
+    max-width: 1120px;
+    margin: auto;
+}
+/* wrapper style*/
+.planning-section-wrapper {
+    width: 100%;
+    max-width: 1106px;
+
+}
+/*content styles */
+h2.planning-sectioon-title {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+   color: #383F4D;
+
+}
+/*span styling */
+ .planning-section-text span {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #3066C9;
+}
+/*planning-secton-text p styles */
+ .planning-section-text p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+    text-align: center;
+    color: #000000;
+} 
+/*pannel-section styles*/
+.planning-section-pannels {
+    background: #EAF0FA;
+    border-radius: 20px;
+    padding: 45px;
+}
+/* plannig-section-pannel-items styling */
+.planning-section-pannel-active {
+    display: flex;
+    gap: 80px;
+}
+/*planning-section -pannel-items styling */
+.planning-section-pannel {
+
+    display: flex;
+    gap: 80px;
+}
+/*planning button styling */
+.planning-section-crop-tab{
+       display: flex;
+    height: 56px;
+    justify-content: center;
+    margin: 0 auto -1px;
+    gap: 36px;
+}
+/*first button styling*/
+button.crop-tab-button-first {
+    background: #fff;
+    color: #383f4d;
+    border: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    padding: 17px;
+    border-radius: 6px;
+}
+
+/*middle button styling*/
+button.crop-tab-button-middle {
+    
+     background:#fff;
+    color: #383f4d;
+    border: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    padding: 17px;
+    border-radius: 6px;
+}
+/*last button styling*/
+    button.crop-tab-button-last{
+        
+     background:#fff;
+    color: #383f4d;
+    border: none;
+
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    padding: 17px;
+    border-radius: 6px;
+
+    }
+    /*button styling in active */
+    button.crop-tab-button-first.active{
+            background: #eaf0fa;
+    }
+    button.crop-tab-button-middle.active{
+         background: #eaf0fa;
+
+    }
+    button.crop-tab-button-last.active{
+          background: #eaf0fa;
+
+    }
+/*planning-section-items img styles */
+.planning-section-items {
+    width: 100%;
+    max-width: 361px;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+
+ .planning-section-items img{
+    width: 100%;
+
+}
+/*pannel-title styles*/
+h2.planning-section-pannel-title {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+/* }
+.planning-section-crop-tab {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+} */
+/*planning-section-title*/
+h2.planning-section-pannel-title {
+    font-size: 40px;
+    font-family: poppins;
+    line-height: 48px;
+    color: #000;
+}
+ /*planning-section para styles*/
+.planning-section-description p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+}
+ /*planning-section buttons */
+.planning-section-jpg {
+    padding: 15px;
+    margin-top: 23px;
+}
+a.pay-button {
+    background: transparent;
+    border: 1px solid #3066c9;
+    border-radius: 8px;
+    color: #3066c9;
+    display: inline-block;
+    font-size: 18px !important;
+    font-weight: 500;
+    font-weight: 600;
+    line-height: 160% !important;
+    margin-right: 16px;
+    padding: 11px 19px;
+    text-align: center;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.planning-section-pannel-features {
+    display: flex;
+    gap: 70px;
+}
+/*planning-section-pannel-features-title*/
+h3.planning-section-pannel-features-title {
+    font-family: Manrope;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+
+}
+
+/*planning-section features-content li*/
+.planning-section-pannel-features-content li {
+    font-family: Manrope;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+    color:#000;
+}
+/* pannel-features-content span*/
+.planning-section-pannel-features-content span{
+    font-family: Manrope;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+color:#000;
+line-height: 24px;
+letter-spacing: 0.09px;
+
+}.planning-section-wrapper > .planning-section-pannels{
+    display:block;
+}
+
+.planning-section-wrapper > .planning-section-pannels.active{
+    display:block;
+}.planning-section-pannels {
+    display:block;
+}
+@media (max-width: 768px) {
+    /*planning-section-title */
+    h2.planning-sectioon-title{
+        font-size: 30px;
+        line-height: 40px;
+        color:#000;
+    }
+/*pannel-features-styles*/
+    .planning-section-pannel-features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* panel active fix */
+    .planning-section-pannels-active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+  section.planning-section{
+    padding: 60px 20px;
+  }
+
+  .planning-section-wrapper{
+    max-width: 100%;
+  }
+
+  h2.planning-sectioon-title,
+  .planning-section-text span{
+    font-size: 30px;
+    line-height: 40px;
+  }
+/* text p styles */
+  .planning-section-text p{
+    font-size: 16px;
+    line-height: 24px;
+  
+  }
+
+  
+
+  /* all panels */
+  .planning-section-pannel-active,
+  .planning-section-pannel,
+  .planning-section-pannel-features{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  /*planning-section styles */
+
+  .planning-section-pannels{
+    padding: 20px;
+  }
+
+  .planning-section-items{
+    max-width: 100%;
+  }
+
+  .planning-section-items img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  h2.planning-section-pannel-title{
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .planning-section-description p{
+    text-align: center;
+    font-size: 16px;
+  }
+/*img add */
+  .planning-section-jpg{
+    text-align: center;
+    padding: 0;
+  }
+/*button styles*/
+  a.pay-button{
+    width: 100%;
+    max-width: 250px;
+  }
+/*content styes */
+  .planning-section-pannel-features-content{
+    text-align: center;
+  }
+/* pannel-features-titile*/
+  h3.planning-section-pannel-features-title{
+    font-size: 20px;
+    line-height: 28px;
+  }
+/*pannel-features-content li */
+  .planning-section-pannel-features-content li{
+    font-size: 18px;
+    line-height: 26px;
+    list-style: none;
+  }
+}
+/* pay-anyone-container*/
+
+.iframe-sec {
+    padding: 0 64px;
+    /* padding-top: 72px; */
+    margin-top: 90px;
+}

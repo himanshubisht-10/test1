@@ -220,12 +220,12 @@
             </div>
         </div>
     </section>`;
-    const accomodationsection = `
+        const accomodationsection = `
 <div class="accordion-button">
     <a href="#" class="accordion-primary">Aktivitäten </a>
     <a href="#" class="accordion-secondary">Unterkunft </a>
 </div>`;
-const slidebarsection = `
+        const slidebarsection = `
 <div class="slidebar">
     <div class="slidebar-content">
         <div class="slidebar-head">
@@ -247,7 +247,7 @@ const slidebarsection = `
     </div>
 </div>
 `;
-    
+
         function waitForElement(selector, trigger, delayInterval = 50, delayTimeout = 15000) {
             var interval = setInterval(function () {
                 if (document && document.querySelector(selector) && document.querySelectorAll(selector).length > 0) {
@@ -293,24 +293,24 @@ const slidebarsection = `
         function changesWithData() {
             //Adding heading text
             waitForElement('.content h1', function () {
-             document.querySelector('.content h1').innerHTML = 'Plane deinen Prag JGA';
+                document.querySelector('.content h1').innerHTML = 'Plane deinen Prag JGA';
 
-             }); 
+            });
 
             //Adding feautressection 
 
             let Sections = featuresSection + JGASection;
-            waitForElement('main.buildWeekend> .itinerary-grid',function(){
+            waitForElement('main.buildWeekend> .itinerary-grid', function () {
                 document.querySelector('main.buildWeekend> .itinerary-grid').insertAdjacentHTML('afterend', Sections);
             })
             //Adding rationsection above the content
 
-            waitForElement('.hero-image + .content h1',function(){
-               document.querySelector('.hero-image + .content h1').insertAdjacentHTML('beforebegin', ratingElement);
+            waitForElement('.hero-image + .content h1', function () {
+                document.querySelector('.hero-image + .content h1').insertAdjacentHTML('beforebegin', ratingElement);
             })
             // Adding accomdation button in trip data
 
-            waitForElement('.trip-data',function(){
+            waitForElement('.trip-data', function () {
                 document.querySelector('.trip-data').insertAdjacentHTML('beforebegin', accomodationsection);
             })
 
@@ -318,47 +318,47 @@ const slidebarsection = `
             //     document.querySelector('.accordion-primary').addEventListener('click',function(){
             //         this.classList.add('active')
             //     })  
- waitForElement('.accordion-primary', function () {
+            waitForElement('.accordion-primary', function () {
 
-    const primary = document.querySelector(".accordion-primary");
-    const secondary = document.querySelector(".accordion-secondary");
+                const primary = document.querySelector(".accordion-primary");
+                const secondary = document.querySelector(".accordion-secondary");
 
-    const days = document.querySelectorAll(".row.day");
-    const acc = document.querySelectorAll(".accommodation");
-    const buttons = document.querySelectorAll(".accordion-button a");
+                const days = document.querySelectorAll(".row.day");
+                const acc = document.querySelectorAll(".accommodation");
+                const buttons = document.querySelectorAll(".accordion-button a");
 
-    primary.classList.add("active");
+                primary.classList.add("active");
 
-    days.forEach(el => el.style.display = "block");
-    acc.forEach(el => el.style.display = "none");
+                days.forEach(el => el.style.display = "block");
+                acc.forEach(el => el.style.display = "none");
 
-    primary.onclick = function (e) {
-        e.preventDefault();
+                primary.onclick = function (e) {
+                    e.preventDefault();
 
-        days.forEach(el => el.style.display = "block");
-        acc.forEach(el => el.style.display = "none");
+                    days.forEach(el => el.style.display = "block");
+                    acc.forEach(el => el.style.display = "none");
 
-        buttons.forEach(b => b.classList.remove("active"));
-        this.classList.add("active");
-    };
+                    buttons.forEach(b => b.classList.remove("active"));
+                    this.classList.add("active");
+                };
 
-    secondary.onclick = function (e) {
-        e.preventDefault();
+                secondary.onclick = function (e) {
+                    e.preventDefault();
 
-        days.forEach(el => el.style.display = "none");
-        acc.forEach(el => el.style.display = "block");
+                    days.forEach(el => el.style.display = "none");
+                    acc.forEach(el => el.style.display = "block");
 
-        buttons.forEach(b => b.classList.remove("active"));
-        this.classList.add("active");
-    };
+                    buttons.forEach(b => b.classList.remove("active"));
+                    this.classList.add("active");
+                };
 
-});
-//Adding the slidebaritems 
+            });
+            //Adding the slidebaritems 
 
-waitForElement('.sidebar', function () {
-    
-document.querySelector('.sidebar').insertAdjacentHTML('beforebegin',slidebarsection);
-});
+            waitForElement('.sidebar', function () {
+
+                document.querySelector('.sidebar').insertAdjacentHTML('beforebegin', slidebarsection);
+            });
 
 
         }
