@@ -85,6 +85,64 @@
         </div>
         </div>
     </section>`;
+        const gridsection = `
+    <section class="reward-section">
+        <div class="reward-section-container">
+            <div class="reward-section-wrapper">
+                <div class="reward-section-content">
+                        <h2>Earn even more with <span>PayRewards™</span></h2>
+                        <strong>Credit card points + PayRewards™ = more rewards</strong>
+                        <p>Earn your existing card rewards first, then optionally unlock additional value with PayRewards™,
+                             with the flexibility to opt in per transaction.</p>
+                             <div class="reward-section-content-button">
+                                <button class="primary">See how PayRewards works</button>
+                             </div>
+                             </div>
+                             <div class="reward-section-img">
+                              <img width="768" height="752" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?fit=768%2C752&amp;quality=89&amp;ssl=1" class="pay-responsive-img" 
+                              alt="Pay.com.au business payments platform dashboard interface" loading="lazy"
+                               decoding="async" fetchpriority="auto" sizes="auto" 
+                              srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?w=2240&amp;quality=89&amp;ssl=1 2240w, https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?resize=300%2C294&amp;quality=89&amp;ssl=1 300w, 
+                              https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?resize=1024%2C1002&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?resize=768%2C752&amp;quality=89&amp;ssl=1 768w, 
+                              https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?resize=1536%2C1503&amp;quality=89&amp;ssl=1 1536w, https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?resize=2048%2C2004&amp;quality=89&amp;ssl=1
+                               2048w,https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?fit=768%2C752&amp;quality=89&amp;ssl=1&amp;resize=510%2C500&amp;_jb=custom 1365.2999638319016w" data-attachment-id="18040" 
+                              data-permalink="https://pay.com.au/front-page/stack-your-rewards-2/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?fit=2240%2C2192&amp;quality=89&amp;ssl=1" data-orig-size="2240,2192" data-comments-opened="1" 
+                              data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;
+                                0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" 
+                              data-image-title="Stack your rewards" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/07/Stack-your-rewards.webp?fit=1024%2C1002&amp;quality=89&amp;ssl=1">
+                             </div>
+            </div>
+        </div>
+    </section>
+    `;
+        const savesection = `
+    <section class="save-section">
+        <div class="save-section-container">
+        <div class="save-section-wrapper">
+            <div class="save-section-left">
+            <div class="save-section-text">
+            <h2>See how much you could save</h2>
+            <P>Find out how many PayRewards points you could earn and discover how to stack them with your credit card points</P>
+            <div class="save-section-button">
+                <a href="#" class="primary">Calcutate now</a>
+            </div>
+            </div>
+                <div class="save-section-img">
+
+                                <img width="768" height="557" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/benefit6.png?fit=768%2C557&amp;quality=89&amp;ssl=1" 
+                                class="pay-responsive-img" alt="Pay.com.au business payments platform dashboard interface" 
+                                loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, (max-width: 899px) 90vw, (max-width: 1200px) 50vw, 548px" data-attachment-id="16856"
+                                 data-permalink="https://pay.com.au/how-it-works/benefit6/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/benefit6.png?fit=1120%2C812&amp;quality=89&amp;ssl=1"
+                                  data-orig-size="1120,812" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                                    created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="benefit6" 
+                                  data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/benefit6.png?fit=1024%2C742&amp;quality=89&amp;ssl=1">
+            
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    `;
 
 
         function waitForElement(
@@ -109,68 +167,78 @@
         }
 
         function changes() {
+            let Sections = rewardsection + gridsection + savesection;
+            console.log('Sections', Sections)
             //change the pay -anyone section
             waitForElement(".video-header", function () {
                 document.querySelector(".video-header")
-                    .insertAdjacentHTML("afterend", rewardsection);
+                    .insertAdjacentHTML("afterend", Sections);
+
+                // // Adding the all section 
+                // waitForElement(".planning-section", function () {
+                //     document.querySelector(".planning-section").insertAdjacentHTML("afterend",Sections);
             });
         }
 
-        changes()
+
+       
+
+
+        changes();
         //adding js in the anyone-section-inserted 
-        
-     waitForElement('.crop-tab-button-first', function () { 
-        const firstBtn = document.querySelector('.crop-tab-button-first');
-        const secondBtn = document.querySelector('.crop-tab-button-middle');
-        const thirdBtn = document.querySelector('.crop-tab-button-last');
 
-        const buttons = document.querySelectorAll(
-            '.crop-tab-button-first, .crop-tab-button-middle, .crop-tab-button-last'
-        );
+        waitForElement('.crop-tab-button-first', function () {
+            const firstBtn = document.querySelector('.crop-tab-button-first');
+            const secondBtn = document.querySelector('.crop-tab-button-middle');
+            const thirdBtn = document.querySelector('.crop-tab-button-last');
 
-        const firstcontent = document.querySelector('.planning-section-pannel-active');
-        const secondcontent = document.querySelector('.planning-section-pannel');
-        const thirdcontent = document.querySelector('.planning-section-pannel-features');
+            const buttons = document.querySelectorAll(
+                '.crop-tab-button-first, .crop-tab-button-middle, .crop-tab-button-last'
+            );
 
-        // default
-        firstcontent.style.display = "flex";
-        secondcontent.style.display = "none";
-        thirdcontent.style.display = "none";
-        firstBtn.classList.add('active');
+            const firstcontent = document.querySelector('.planning-section-pannel-active');
+            const secondcontent = document.querySelector('.planning-section-pannel');
+            const thirdcontent = document.querySelector('.planning-section-pannel-features');
 
-        firstBtn.onclick = function (e) {
-            e.preventDefault();
-
+            // default
             firstcontent.style.display = "flex";
             secondcontent.style.display = "none";
             thirdcontent.style.display = "none";
+            firstBtn.classList.add('active');
 
-            buttons.forEach(b => b.classList.remove("active"));
-            this.classList.add("active");
-        };
+            firstBtn.onclick = function (e) {
+                e.preventDefault();
 
-        secondBtn.onclick = function (e) {
-            e.preventDefault();
+                firstcontent.style.display = "flex";
+                secondcontent.style.display = "none";
+                thirdcontent.style.display = "none";
 
-            firstcontent.style.display = "none";
-            secondcontent.style.display = "flex";
-            thirdcontent.style.display = "none";
+                buttons.forEach(b => b.classList.remove("active"));
+                this.classList.add("active");
+            };
 
-            buttons.forEach(b => b.classList.remove("active"));
-            this.classList.add("active");
-        };
+            secondBtn.onclick = function (e) {
+                e.preventDefault();
 
-        thirdBtn.onclick = function (e) {
-            e.preventDefault();
+                firstcontent.style.display = "none";
+                secondcontent.style.display = "flex";
+                thirdcontent.style.display = "none";
 
-            firstcontent.style.display = "none";
-            secondcontent.style.display = "none";
-            thirdcontent.style.display = "flex";
+                buttons.forEach(b => b.classList.remove("active"));
+                this.classList.add("active");
+            };
 
-            buttons.forEach(b => b.classList.remove("active"));
-            this.classList.add("active");
-        }
-    });
+            thirdBtn.onclick = function (e) {
+                e.preventDefault();
+
+                firstcontent.style.display = "none";
+                secondcontent.style.display = "none";
+                thirdcontent.style.display = "flex";
+
+                buttons.forEach(b => b.classList.remove("active"));
+                this.classList.add("active");
+            }
+        });
 
 
     } catch (error) {

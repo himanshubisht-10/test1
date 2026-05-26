@@ -13,6 +13,12 @@
     max-width: 1106px;
 
 }
+/*planning-section-text styles*/
+.planning-section-text {
+    width: 100%;
+    max-width: 758px;
+    margin: auto;
+}
 /*content styles */
 h2.planning-sectioon-title {
     font-family: Manrope;
@@ -50,7 +56,7 @@ h2.planning-sectioon-title {
 .planning-section-pannels {
     background: #EAF0FA;
     border-radius: 20px;
-    padding: 45px;
+    padding: 23px;
 }
 /* plannig-section-pannel-items styling */
 .planning-section-pannel-active {
@@ -83,6 +89,7 @@ button.crop-tab-button-first {
     letter-spacing: 0.09px;
     padding: 17px;
     border-radius: 6px;
+    min-width:99px;
 }
 
 /*middle button styling*/
@@ -98,6 +105,7 @@ button.crop-tab-button-middle {
     letter-spacing: 0.09px;
     padding: 17px;
     border-radius: 6px;
+    min-width:99px;
 }
 /*last button styling*/
     button.crop-tab-button-last{
@@ -113,6 +121,7 @@ button.crop-tab-button-middle {
     letter-spacing: 0.09px;
     padding: 17px;
     border-radius: 6px;
+    min-width:99px;
 
     }
     /*button styling in active */
@@ -129,8 +138,8 @@ button.crop-tab-button-middle {
     }
 /*planning-section-items img styles */
 .planning-section-items {
-    width: 100%;
-    max-width: 361px;
+   width:100%;
+    max-width: 400px;
     overflow: hidden;
     border-radius: 25px;
 
@@ -139,6 +148,12 @@ button.crop-tab-button-middle {
  .planning-section-items img{
     width: 100%;
 
+}
+
+
+/* planning-section content styles*/
+.planning-section-pannel-content {
+    margin: auto;
 }
 /*pannel-title styles*/
 h2.planning-section-pannel-title {
@@ -171,6 +186,7 @@ h2.planning-section-pannel-title {
     padding: 15px;
     margin-top: 23px;
 }
+/* a pay -button 
 a.pay-button {
     background: transparent;
     border: 1px solid #3066c9;
@@ -202,7 +218,9 @@ h3.planning-section-pannel-features-title {
     letter-spacing: 0.09px;
 
 }
-
+.planning-section-pannel-features-content {
+    margin: auto;
+}
 /*planning-section features-content li*/
 .planning-section-pannel-features-content li {
     font-family: Manrope;
@@ -291,7 +309,9 @@ letter-spacing: 0.09px;
   }
 
   .planning-section-items{
-    max-width: 100%;
+    max-width: 400px;
+    height:auto;
+    width:100%;
   }
 
   .planning-section-items img{
@@ -321,9 +341,7 @@ letter-spacing: 0.09px;
     max-width: 250px;
   }
 /*content styes */
-  .planning-section-pannel-features-content{
-    text-align: center;
-  }
+  
 /* pannel-features-titile*/
   h3.planning-section-pannel-features-title{
     font-size: 20px;
@@ -342,4 +360,180 @@ letter-spacing: 0.09px;
     padding: 0 64px;
     /* padding-top: 72px; */
     margin-top: 90px;
+}
+        /*section.reward-section styles*/
+section.reward-section {
+    padding: 112px 60px;
+    background: #F9F9F9;
+}
+/*container */
+.reward-section-container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.reward-section-wrapper {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+/*reward-section-content*/
+.reward-section-content {
+    width: 100%;
+   
+}
+/* reward-section-content h2 styles */
+ .reward-section-content h2 {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #383F4D;
+
+}
+/*span styles*/
+.reward-section-content span {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #3066C9;
+}
+/*strong styles */
+ .reward-section-content strong {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #383F4D;
+}
+/*reward-section-content */
+  .reward-section-content p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+/*button */
+.reward-section-content-button {
+    padding: 15px;
+    display: flex;
+}
+
+button.primary {
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #3066C9;
+    border:1px solid;
+}  /* img styles*/
+.reward-section-img {
+    max-width: 585px;
+    width:100%;
+}
+.reward-section-img img{
+    width: 100%;
+    height: auto;
+}
+/* media scree apply*/
+@media(max-width: 768px){
+    .reward-section-wrapper{
+        flex-direction:column;
+    }section.reward-section{
+        padding:60px 20px;
+    }.reward-section-content{
+        width:100%;
+    }.reward-section-content h2{
+        font-size: 32px;
+        line-height:40px;
+    }.reward-section-content span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+}
+/* section.save-section */
+
+section.save-section {
+    padding: 120px 60px;
+    background: #fff;
+}
+.save-section-container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+/*save-section-text h2*/
+ .save-section-text h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 56px;
+    color: #183263;
+}
+/*save-section-text p*/
+ .save-section-text p {
+    color: #183263;
+    font-size: 18px !important;
+    line-height: 150% !important;
+    font-weight: 300;
+}
+/*save-section-button*/
+
+.save-section-button {
+    padding: 15px;
+}
+ .save-section-button a.primary {
+    padding: 11px 19px;
+    border: 1px solid #3066c9;
+    border-radius: 8px;
+    text-decoration: none;
+    background: transparent;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+}
+/*section wrapper */
+.save-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+/*save-section-left*/
+.save-section-left {
+    background: #eaf0fa;
+    border-radius: 32px;
+    padding: 20px;
+    color: #3366c7;
+    display:flex;
+    gap:28px;
+
+}
+/*save-section-img*/
+.save-section-img {
+    width: 100%;
+    max-width: 490px;
+}
+img.pay-responsive-img {
+    width: 100%;
+    max-width: 483px;
+   
+}
+/*media screen for save-section styles*/
+@media (max-width:768px){
+    section.save-section{
+        padding: 60px 20px;
+    }.save-section-left{
+        flex-direction: column;
+    }.save-section-text h2{
+        font-size:32px;
+        line-height: 40px;
+    }
 }
