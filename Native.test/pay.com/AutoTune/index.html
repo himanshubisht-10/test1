@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>multi-step-form</title>
+    <link rel="Stylesheet" href="index.css">
+</head>
+<body>
+     <div class="form-card">
+        <!-- progress with rich palette -->
+        <div class="progress-header">
+            <div class="step-indicators">
+                <span class="step-badge active" id="step1Badge">1</span>
+                <span class="step-badge" id="step2Badge">2</span>
+                <span class="step-badge" id="step3Badge">3</span>
+                <span class="step-badge" id="step4Badge">✔</span>
+            </div>
+        </div>
+        <!-- step 1 // warm welcome -->
+        <div id="step1" class="form-step">
+            <div class="step-caption"> introduce yourself</div>
+
+            <div class="input-group">
+                <label>Full name</label>
+                <div class="field-wrapper">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="fullName" placeholder="e.g., Margot Chen">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <div class="field-wrapper">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="hello@domain.com">
+                </div>
+            </div>
+        </div>
+
+        <!-- step 2 // branching with refined conditional -->
+        <div id="step2" class="form-step hidden-step">
+            <div class="step-caption">step 2/4 – pick a path, see conditional logic</div>
+            <div class="input-group">
+                <label>I'm passionate about</label>
+                <div class="field-wrapper">
+                    <i class="fas fa-compass"></i>
+                    <select id="interestSelect">
+                        <option value="design" selected>Creative design & brand identity</option>
+                        <option value="dev">Development & interactive code</option>
+                        <option value="marketing">Storytelling & strategy</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- elegant conditional block (dev branch) -->
+            <div id="conditionalDevBlock" class="conditional-group hidden-step">
+                <label style="text-transform: none; font-weight: 600; color: #436342;"><i class="fas fa-code"></i> favorite frontend</label>
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" name="framework" value="react" checked> <span>html</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="framework" value="vue"> <span>css</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="framework" value="svelte"> <span>javascript</span>
+                    </label>
+                </div>
+                <p style="font-size:0.85rem; margin-top: 0.8rem; color: #7b8f6f;"><i class="far fa-gem"></i> conditional field appears only for "development"</p>
+            </div>
+        </div>
+
+        <!-- step 3 // contextually aware message -->
+        <div id="step3" class="form-step hidden-step">
+            <div class="step-title">almost there <span class="gold-accent">⌘</span></div>
+            <div class="step-caption" id="step3Caption">step 3/4 – any reflections?</div>
+
+            <div class="input-group">
+                <label>Your thoughts</label>
+                <textarea id="messageField" placeholder="Share something inspiring ..."></textarea>
+            </div>
+
+            <div class="context-hint" id="hintBox">
+                <i class="fas fa-feather-alt"></i>
+                <span id="hintText">You chose design — describe your creative vision.</span>
+            </div>
+        </div>
+
+        <!-- step 4 // completion with elegance -->
+        <div id="step4" class="form-step hidden-step">
+            <div class="finish-message">
+                <i class="fas fa-sparkles"></i>
+                <h3>perfect.</h3>
+                <p style="font-size: 1.1rem;">your story has been recorded.</p>
+                <p style="margin-top: 2rem; font-size: 0.9rem; border-top: 1px dashed #ab946e; padding-top: 1.2rem;">✻ multi‑step · conditional logic · award‑winning palette ✻</p>
+            </div>
+        </div>
+
+        <!-- navigation with personality -->
+        <div class="nav-buttons">
+            <button id="prevBtn" disabled><i class="fas fa-arrow-left"></i> back</button>
+            <button id="nextBtn" class="primary"><i class="fas fa-arrow-right"></i>next</button>
+        </div>
+   
+ <script> (function() {
+            // state
+            let currentStep = 1;
+            const totalSteps = 4;
+            
+            const step1 = document.getElementById('step1');
+            const step2 = document.getElementById('step2');
+            const step3 = document.getElementById('step3');
+            const step4 = document.getElementById('step4');
+            const steps = [step1, step2, step3, step4];
+
+            const badges = [
+                document.getElementById('step1Badge'),
+                document.getElementById('step2Badge'),
+                document.getElementById('step3Badge'),
+                document.getElementById('step4Badge')
+            ];
+
+           
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            // interactive elements
+            const interestSelect = document.getElementById('interestSelect');
+            const conditionalBlock = document.getElementById('conditionalDevBlock');
+            const hintSpan = document.getElementById('hintText');
+            const frameworkRadios = document.querySelectorAll('input[name="framework"]');
+            
+            // step change
+            function showStep(step) {
+                steps.forEach((s, idx) => {
+                    if (idx + 1 === step) s.classList.remove('hidden-step');
+                    else s.classList.add('hidden-step');
+                });
+
+                // update badges
+                badges.forEach((badge, idx) => {
+                    const stepNum = idx + 1;
+                    badge.classList.remove('active', 'completed');
+                    if (stepNum === step) {
+                        badge.classList.add('active');
+                    } else if (stepNum < step) {
+                        badge.classList.add('completed');
+                        if (stepNum === 4) badge.innerHTML = '✔';
+                        else badge.innerText = stepNum;
+                    } else {
+                        if (stepNum === 4) badge.innerHTML = '✔';
+                        else badge.innerText = stepNum;
+                    }
+                });
+
+                // const progressPercent = ((step - 1) / (totalSteps - 1)) * 100;
+                // progressFill.style.width = progressPercent + '%';
+
+                prevBtn.disabled = (step === 1);
+                if (step === totalSteps) {
+                    nextBtn.innerHTML = `finish <i class="fas fa-check"></i>`;
+                } else {
+                    nextBtn.innerHTML = `next <i class="fas fa-arrow-right"></i>`;
+                }
+            }
+
+            // conditional + hint update (conversational logic)
+            function updateConditionalAndHint() {
+                const interest = interestSelect.value;
+                if (interest === 'dev') {
+                    conditionalBlock.classList.remove('hidden-step');
+                } else {
+                    conditionalBlock.classList.add('hidden-step');
+                }
+
+                // smart hint in step3
+                if (interest === 'dev') {
+                    let fw = 'react';
+                    frameworkRadios.forEach(r => { if (r.checked) fw = r.value; });
+                    hintSpan.innerText = `✨ you're into ${fw} (dev). tell us about your technical challenge.`;
+                } else if (interest === 'design') {
+                    hintSpan.innerText = '🎨 design eye — share your aesthetic references or current project.';
+                } else {
+                    hintSpan.innerText = '📈 strategy & storytelling — what campaign are you dreaming of?';
+                }
+            }
+
+            // listeners
+            interestSelect.addEventListener('change', updateConditionalAndHint);
+            frameworkRadios.forEach(radio => {
+                radio.addEventListener('change', () => {
+                    if (interestSelect.value === 'dev') updateConditionalAndHint();
+                });
+            });
+
+            // navigation
+         function goToNext() {
+
+    // ========== STEP 1 VALIDATION ==========
+    if (currentStep === 1) {
+        const fullName = document.getElementById('fullName');
+        const email = document.getElementById('email');
+
+        let hasError = false;
+
+        fullName.classList.remove('input-error');
+        email.classList.remove('input-error');
+
+        if (fullName.value.trim() === '') {
+            fullName.classList.add('input-error');
+            hasError = true;
+        }
+
+        if (email.value.trim() === '') {
+            email.classList.add('input-error');
+            hasError = true;
+        }
+
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (email.value.trim() !== '' && !emailPattern.test(email.value)) {
+            email.classList.add('input-error');
+            hasError = true;
+        }
+
+        if (hasError) return; // STOP if error
+    }
+
+    // ========== STEP 3 VALIDATION ==========
+    if (currentStep === 3) {
+        const message = document.getElementById('messageField');
+
+        message.classList.remove('input-error');
+
+        if (message.value.trim() === '') {
+            message.classList.add('input-error');
+            return; // STOP
+        }
+    }
+
+    // ========== MOVE STEP ==========
+    if (currentStep < totalSteps) {
+        currentStep++;
+        showStep(currentStep);
+    }
+
+    // ========== UPDATE CONDITIONAL UI ==========
+    if (currentStep === 3) {
+        updateConditionalAndHint();
+    }
+}
+
+            function goToPrev() {
+                if (currentStep > 1) {
+                    currentStep--;
+                }
+                showStep(currentStep);
+                if (currentStep === 3) updateConditionalAndHint();
+            }
+
+            nextBtn.addEventListener('click', goToNext);
+            prevBtn.addEventListener('click', goToPrev);
+
+            // init
+            showStep(1);
+            updateConditionalAndHint(); 
+        })();</script>
+        
+</body>
+
+</html>

@@ -46,7 +46,8 @@
                          content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1536%2C1037&amp;quality=89&amp;ssl=1 1536w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1&amp;resize=0%2CNaN&amp;_jb=custom 1365.75w" 
                          data-attachment-id="23958" data-permalink="https://pay.com.au/?attachment_id=23958" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1600%2C1080&amp;quality=89&amp;ssl=1" 
                          data-orig-size="1600,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,
-                            &quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Launch asset 1 &amp;#8211; Social 1920x1080px" data-image-description="" 
+                            &quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" 
+                            data-image-title="Launch asset 1 &amp;#8211; Social 1920x1080px" data-image-description="" 
                          data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1">
                     </div>
                     <div class="planning-section-pannel-content">
@@ -66,7 +67,17 @@
                  <div class="planning-section-pannels">
                 <div class="planning-section-pannel-features">
                     <div class="planning-section-items">
-                        <img src="https://i.postimg.cc/RZFgbHCQ/image-45.jpg" alt="price">
+                      
+                        <img width="1024" height="600" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1" 
+                        class="pay-responsive-img tabbed-grid-sec__image" alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async"
+                         fetchpriority="auto" sizes="auto" srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?w=1600&amp;quality=89&amp;ssl=1 1600w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=300%2C203&amp;quality=89&amp;ssl=1 300w, 
+                         https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1024%2C691&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=768%2C518&amp;quality=89&amp;ssl=1 768w, https://i0.wp.com/pay.com.au/wp-
+                         content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1536%2C1037&amp;quality=89&amp;ssl=1 1536w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1&amp;resize=0%2CNaN&amp;_jb=custom 1365.75w" 
+                         data-attachment-id="23958" data-permalink="https://pay.com.au/?attachment_id=23958" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1600%2C1080&amp;quality=89&amp;ssl=1" 
+                         data-orig-size="1600,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,
+                            &quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" 
+                            data-image-title="Launch asset 1 &amp;#8211; Social 1920x1080px" data-image-description="" 
+                         data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1">
                     </div>
                     <div class="planning-section-pannel-features-content">
                         <h3 class="planning-section-pannel-features-title">
@@ -179,10 +190,6 @@
                 //     document.querySelector(".planning-section").insertAdjacentHTML("afterend",Sections);
             });
         }
-
-
-       
-
 
         changes();
         //adding js in the anyone-section-inserted 

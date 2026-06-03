@@ -1,0 +1,201 @@
+ *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+       
+     body{
+            display:flex;
+            justify-content:center;
+        }
+        .form-card {
+    width: 100%;
+    max-width: 600px;
+    background: green;
+    border-radius: 8px;
+    padding: 2.2rem;
+        }
+        .step-indicators {
+    display: flex;
+    gap:12px;
+}
+span#step1Badge {
+      background: blue;
+    border-radius: 100px;
+    color: white;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+span#step2Badge {
+       background: white;
+    border-radius: 50%;
+    color: black;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#step2Badge.completed{
+    background: blue;
+    color: white;
+}
+span#step3Badge {
+       background: white;
+    border-radius: 50%;
+    color: black;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#step3Badge.completed{
+      background: blue;
+    color: white;
+
+}
+span#step4Badge {
+    background: white;
+    border-radius: 50%;
+    color: black;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span#step4Badge.active {
+    background: blue;
+    color: white;
+}
+span#step2Badge.active {
+    background: blue;
+    color: white;
+}
+
+span#step3Badge.active {
+    background: blue;
+    color: white;
+}
+.step-caption {
+    font-size: 30px;
+    line-height: 38px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom:12px;
+}
+.field-wrapper {
+    margin-top: 12px;
+
+}label {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: sans-serif;
+    font-weight: 400;
+}input#fullName {
+    min-height: 56px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 11px;
+    margin-bottom:16px;
+}
+input#email {
+    width: 100%;
+    min-height: 56px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom:15px;
+}select#interestSelect {
+    width: 100%;
+  
+    padding: 10px;
+    min-height: 50px;
+    border-radius: 6px;
+}
+.step-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+textarea#messageField {
+    width: 100%;
+    min-height: 170px;
+    border-radius: 25px;
+    margin-top: 12px;
+    display: flex;
+    text-align: center;
+    padding: 2.2rem;
+    font-size: 18px;
+    line-height: 28px;
+    color: orange;
+
+}
+div#hintBox {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin-top: 12px;
+    background: white;
+    padding: 8px;
+}
+span#hintText {
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+}
+
+div#step4 {
+    width: 100%;
+    background: beige;
+    border-radius: 25px;
+    text-align: center;
+    margin-top:20px;
+}
+button#prevBtn {
+    font-size: 15px;
+    line-height: 21px;
+    background: blue;
+    border-radius: 6px;
+    padding: 6px;
+    color: black;
+    width:24%;
+}
+button#nextBtn {
+    font-size: 15px;
+    line-height: 21px;
+    color:black;
+    background: orange;
+    padding: 6px;
+    border-radius: 6px;
+    width:24%;
+}
+button#nextBtn:hover{
+    background: blue;
+
+}
+button#prevBtn:hover{
+    background:blue;
+
+}
+
+.nav-buttons {
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+        
+
+        .hidden-step {
+            display: none;
+        }  
+              
