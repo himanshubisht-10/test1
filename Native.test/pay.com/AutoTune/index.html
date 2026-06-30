@@ -20,7 +20,6 @@
         <!-- step 1 // warm welcome -->
         <div id="step1" class="form-step">
             <div class="step-caption"> introduce yourself</div>
-
             <div class="input-group">
                 <label>Full name</label>
                 <div class="field-wrapper">
@@ -37,8 +36,7 @@
                 </div>
             </div>
         </div>
-
-        <!-- step 2 // branching with refined conditional -->
+        
         <div id="step2" class="form-step hidden-step">
             <div class="step-caption">step 2/4 – pick a path, see conditional logic</div>
             <div class="input-group">
@@ -104,22 +102,24 @@
         </div>
    
  <script> (function() {
-            // state
-            let currentStep = 1;
-            const totalSteps = 4;
+            // state?
             
-            const step1 = document.getElementById('step1');
-            const step2 = document.getElementById('step2');
-            const step3 = document.getElementById('step3');
-            const step4 = document.getElementById('step4');
-            const steps = [step1, step2, step3, step4];
+             let currentStep = 1;
+             const totalSteps = 4;
+            
+            
+             const step1 = document.getElementById('step1');
+             const step2 = document.getElementById('step2');
+             const step3 = document.getElementById('step3');
+             const step4 = document.getElementById('step4');
+             const steps = [step1, step2, step3, step4];
 
             const badges = [
-                document.getElementById('step1Badge'),
-                document.getElementById('step2Badge'),
-                document.getElementById('step3Badge'),
-                document.getElementById('step4Badge')
-            ];
+    document.getElementById("step1Badge"),
+    document.getElementById("step2Badge"),
+    document.getElementById("step3Badge"),
+    document.getElementById("step4Badge"),
+];
 
            
             const prevBtn = document.getElementById('prevBtn');
@@ -225,6 +225,7 @@
         }
 
         if (hasError) return; // STOP if error
+
     }
 
     // ========== STEP 3 VALIDATION ==========

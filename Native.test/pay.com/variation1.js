@@ -154,6 +154,145 @@
         </div>
     </section>
     `;
+    //mnjk
+    
+        const slidebarsection =`<div class="swipper">
+        <div class="swipper-wrapper">
+            <div class="slideactive" id="slidestep1">1</div>
+
+    
+            <div class="slide" id="slidestep2">2</div>
+            <div class="slide" id="slidestep3">3</div>
+        </div>
+        <!--swipper-pagination content-->
+        <div class="swipper-pagination">
+            <div class="swipper-content">
+                <div class="swipper-img">
+                
+                        <img width="1024" height="600" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1" class="pay-responsive-img tabbed-grid-sec__image" alt="Pay.com.au business payments platform dashboard interface" 
+                        loading="lazy" decoding="async" fetchpriority="auto" sizes="auto" srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?w=1371&amp;quality=89&amp;ssl=1 1371w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=300%2C200&amp;quality=89&amp;ssl=1 300w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=1024%2C681&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=768%2C511&amp;quality=89&amp;ssl=1 768w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1&amp;resize=770%2C513&amp;_jb=custom 1365.75w" data-attachment-id="23959"
+                         data-permalink="https://pay.com.au/?attachment_id=23959" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1371%2C912&amp;quality=89&amp;ssl=1" data-orig-size="1371,912" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                          data-image-title="W1 Asset &amp;#8211; Conversion 1" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1">
+                </div>
+                <div class="swipper-body">
+                    <p class="swipper-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+                         pariatur veniam? Natus fugit temporibus vero expedita exercitationem 
+                         debitis! Molestias ipsa quas saepe suscipit vel alias voluptatum dolores 
+                    </p>
+                </div>
+            
+            </div>
+            <div class="swipper-content hidden-step">
+                <div class="swipper-img">
+                               <img width="1024" height="600" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1" 
+                        class="pay-responsive-img tabbed-grid-sec__image" alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async"
+                         fetchpriority="auto" sizes="auto" srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?w=1600&amp;quality=89&amp;ssl=1 1600w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=300%2C203&amp;quality=89&amp;ssl=1 300w, 
+                         https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1024%2C691&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=768%2C518&amp;quality=89&amp;ssl=1 768w, https://i0.wp.com/pay.com.au/wp-
+                         content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1536%2C1037&amp;quality=89&amp;ssl=1 1536w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1&amp;resize=0%2CNaN&amp;_jb=custom 1365.75w" 
+                         data-attachment-id="23958" data-permalink="https://pay.com.au/?attachment_id=23958" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1600%2C1080&amp;quality=89&amp;ssl=1" 
+                         data-orig-size="1600,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,
+                            &quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" 
+                            data-image-title="Launch asset 1 &amp;#8211; Social 1920x1080px" data-image-description="" 
+                         data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1">
+                </div>
+                <div class="swipper-body">
+                    <p class="swipper-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+                         pariatur veniam? Natus fugit temporibus vero expedita exercitationem 
+                         debitis! Molestias ipsa quas saepe suscipit vel alias voluptatum dolores 
+                    </p>
+                </div>
+            </div>
+            
+            <div class="swipper-content hidden-step">
+                <div class="swipper-img">
+                
+                
+                        <img width="1024" height="600" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1" class="pay-responsive-img tabbed-grid-sec__image" alt="Pay.com.au business payments platform dashboard interface" 
+                        loading="lazy" decoding="async" fetchpriority="auto" sizes="auto" srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?w=1371&amp;quality=89&amp;ssl=1 1371w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=300%2C200&amp;quality=89&amp;ssl=1 300w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=1024%2C681&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=768%2C511&amp;quality=89&amp;ssl=1 768w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1&amp;resize=770%2C513&amp;_jb=custom 1365.75w" data-attachment-id="23959"
+                         data-permalink="https://pay.com.au/?attachment_id=23959" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1371%2C912&amp;quality=89&amp;ssl=1" data-orig-size="1371,912" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                          data-image-title="W1 Asset &amp;#8211; Conversion 1" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1">
+                </div>
+                <div class="swipper-body">
+                    <p class="swipper-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+                         pariatur veniam? Natus fugit temporibus vero expedita exercitationem 
+                         debitis! Molestias ipsa quas saepe suscipit vel alias voluptatum dolores 
+                    </p>
+                </div>
+            </div>
+            
+            <div class="swipper-content hidden-step">
+                <div class="swipper-img">
+                                <img width="1024" height="600" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1" 
+                        class="pay-responsive-img tabbed-grid-sec__image" alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async"
+                         fetchpriority="auto" sizes="auto" srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?w=1600&amp;quality=89&amp;ssl=1 1600w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=300%2C203&amp;quality=89&amp;ssl=1 300w, 
+                         https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1024%2C691&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=768%2C518&amp;quality=89&amp;ssl=1 768w, https://i0.wp.com/pay.com.au/wp-
+                         content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?resize=1536%2C1037&amp;quality=89&amp;ssl=1 1536w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1&amp;resize=0%2CNaN&amp;_jb=custom 1365.75w" 
+                         data-attachment-id="23958" data-permalink="https://pay.com.au/?attachment_id=23958" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1600%2C1080&amp;quality=89&amp;ssl=1" 
+                         data-orig-size="1600,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,
+                            &quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" 
+                            data-image-title="Launch asset 1 &amp;#8211; Social 1920x1080px" data-image-description="" 
+                         data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/Launch-asset-1-Social-1920x1080px-2.png?fit=1024%2C691&amp;quality=89&amp;ssl=1">
+                </div>
+                <div class="swipper-body">
+                    <p class="swipper-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+                         pariatur veniam? Natus fugit temporibus vero expedita exercitationem 
+                         debitis! Molestias ipsa quas saepe suscipit vel alias voluptatum dolores 
+                    </p>
+                </div>
+            </div>
+              <div class="swipper-content hidden-step">
+                <div class="swipper-img">
+                
+                        <img width="1024" height="600" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1" class="pay-responsive-img tabbed-grid-sec__image" alt="Pay.com.au business payments platform dashboard interface" 
+                        loading="lazy" decoding="async" fetchpriority="auto" sizes="auto" srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?w=1371&amp;quality=89&amp;ssl=1 1371w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=300%2C200&amp;quality=89&amp;ssl=1 300w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=1024%2C681&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?resize=768%2C511&amp;quality=89&amp;ssl=1 768w,https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1&amp;resize=770%2C513&amp;_jb=custom 1365.75w" data-attachment-id="23959"
+                         data-permalink="https://pay.com.au/?attachment_id=23959" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1371%2C912&amp;quality=89&amp;ssl=1" data-orig-size="1371,912" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                          data-image-title="W1 Asset &amp;#8211; Conversion 1" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2026/04/W1-Asset-Conversion-1.png?fit=1024%2C681&amp;quality=89&amp;ssl=1">
+                </div>
+                <div class="swipper-body">
+                    <p class="swipper-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+                         pariatur veniam? Natus fugit temporibus vero expedita exercitationem 
+                         debitis! Molestias ipsa quas saepe suscipit vel alias voluptatum dolores 
+                    </p>
+                </div>
+            </div>
+            </div>
+            <!---button content-->
+        
+        <div class="swipper-button">
+        <div class="swipper-prev-button">prev</div>
+        <div class="swipper-next-button">next</div>
+      
+    </div>
+   <!-- arow left and right-->
+   
+    <div class="arow">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="button-prev">
+        <path d="M10.4772727,0.477272727 C10.7408632,0.740863176 10.7408632,1.16822773 10.4772727,1.43181818 L1.90909091,10 
+        L10.4772727,18.5681818 C10.7408632,18.8317723 10.7408632,19.2591368 10.4772727,19.5227273 C10.2136823,19.7863177 9.
+        78631772,19.7863177 9.52272727,19.5227273 L0.707106781,10.7071068 C0.316582489,10.3165825 0.316582489,9.68341751 0.
+        707106781,9.29289322 L9.52272727,0.477272727 C9.78631772,0.213682278 10.2136823,0.213682278 10.4772727,0.477272727 Z"
+         transform="translate(4)"></path></svg>
+          
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="button-next">
+        <path d="M1.37727273,19.5227273 C1.11368228,19.2591368 1.11368228,18.8317723 1.37727273,18.5681818 
+        L9.94545455,10 L1.37727273,1.43181818 C1.11368228,1.16822773 1.11368228,0.740863176 1.37727273,0.477272727
+         C1.64086318,0.213682278 2.06822773,0.213682278 2.33181818,0.477272727 L11.1474387,9.29289322 C11.537963,9.
+         68341751 11.537963,10.3165825 11.1474387,10.7071068 L2.33181818,19.5227273 C2.06822773,19.7863177 1.64086318,
+         19.7863177 1.37727273,19.5227273 Z" transform="translate(4)"></path></svg>
+    </div>
+<!-- pagination item -->
+    <div class="pagination">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>`;
 
 
         function waitForElement(
@@ -178,7 +317,7 @@
         }
 
         function changes() {
-            let Sections = rewardsection + gridsection + savesection;
+            let Sections = rewardsection + gridsection + savesection + slidebarsection;
             console.log('Sections', Sections)
             //change the pay -anyone section
             waitForElement(".video-header", function () {
@@ -246,6 +385,96 @@
                 this.classList.add("active");
             }
         });
+
+    waitForElement('.swipper', function () {
+
+    let currentStep = 1;
+
+    const slides = document.querySelectorAll('.swipper-content');
+    const step1 = document.querySelector('#slidestep1');
+    const step2 = document.querySelector('#slidestep2');
+    const step3 = document.querySelector('#slidestep3');
+
+    const prevBtn = document.querySelector('.swipper-prev-button');
+    const nextBtn = document.querySelector('.swipper-next-button');
+
+   const prev = document.querySelector('.button-prev');
+   const next = document.querySelector('.button-next');
+
+    const dots = document.querySelectorAll('.dot');
+
+    function updatePagination(step) {
+        dots.forEach(dot => dot.classList.remove('active'));
+        if (dots[step - 1]) dots[step - 1].classList.add('active');
+    }
+
+    function showStep(step) {
+
+        slides.forEach((slide, index) => {
+            slide.classList.toggle('hidden-step', index + 1 !== step);
+        });
+
+        [step1, step2, step3].forEach(el => el.classList.remove('active'));
+
+        if (step === 1) step1.classList.add('active');
+        if (step === 2) step2.classList.add('active');
+        if (step === 3) step3.classList.add('active');
+
+        updatePagination(step);
+    }
+
+    nextBtn.addEventListener('click', () => {
+        if (currentStep < slides.length) {
+            currentStep++;
+            showStep(currentStep);
+        }
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (currentStep > 1) {
+            currentStep--;
+            showStep(currentStep);
+        }
+    });
+
+next.addEventListener('click', () => {
+    currentStep++;
+    if (currentStep > slides.length) currentStep = 1;
+    showStep(currentStep);
+});
+
+// PREV (⬅️)
+prev.addEventListener('click', () => {
+    currentStep--;
+    if (currentStep < 1) currentStep = slides.length;
+    showStep(currentStep);
+
+});
+
+//     setInterval(() => {
+//     currentStep++;
+
+//     if(currentStep > slides.length){
+//         currentStep = 1;
+//     }
+
+//     showStep(currentStep);
+// }, 3000);
+
+ dots.forEach((dot, index) => {
+     dot.addEventListener('click', () => {
+         currentStep = index + 1;
+         showStep(currentStep);
+     });
+ });
+
+
+     showStep(currentStep);
+ 
+});
+
+    
+
 
 
     } catch (error) {

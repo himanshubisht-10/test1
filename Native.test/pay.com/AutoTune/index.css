@@ -11,7 +11,7 @@
         .form-card {
     width: 100%;
     max-width: 600px;
-    background: green;
+    background: #06b6d4;
     border-radius: 8px;
     padding: 2.2rem;
         }
@@ -71,6 +71,11 @@ span#step4Badge {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#step4Badge.completed{
+      background:green;
+    color: white;
 }
 
 span#step4Badge.active {
@@ -193,8 +198,6 @@ button#prevBtn:hover{
     justify-content: space-between;
 }
  
-        
-
         .hidden-step {
             display: none;
         }  

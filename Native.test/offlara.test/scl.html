@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .counter-container{
+      display:flex;
+      align-items: center;
+      gap:12px;
+      margin-top: 20px;
+    }
+    .buttton{
+      padding:8px 15px;
+      cursor:pointer;
+      font-size: 16px;
+    }
+    .color-box{
+      width:50px;
+      height:50px;
+      border:1px solid black;
+      cursor:pointer;
+
+    }
+    .color-pilate{
+      display:flex;
+      gap:15px;
+      margin:12px;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="counter-container">
+    <button class="Increas-count">+</button>
+      <span class="count">0
+      </span>
+      <button class="decrease-count">-</button>
+      <button class="reset-count">reset</button>
+
+    
+    </div>
+    <div class="color-pilate">
+      <div class="color-box" style="background-color: red;"></div>
+        <div class="color-box" style="background-color: yellow;"></div>
+          <div class="color-box" style="background-color: green;"></div>
+            <div class="color-box" style="background-color: orange;"></div>
+              <div class="color-box" style="background-color: blue;"></div>
+    </div>
+    
+  <script>
+ 
+  const increase = document.querySelector('.Increas-count');
+  const decrease = document.querySelector('.decrease-count');
+  const countDisplay = document.querySelector('.count');
+  const reset = document.querySelector('.reset-count');
+
+  let count = 0;
+
+  // INCREASE
+  increase.addEventListener('click', function () {
+    count++;
+    countDisplay.textContent = count;
+  });
+
+  // DECREASE
+  decrease.addEventListener('click', function () {
+    if (count > 0) {
+      count--;
+    }
+    countDisplay.textContent = count;
+  });
+
+  // RESET
+  reset.addEventListener('click', function () {
+    count = 0;
+    countDisplay.textContent = count;
+  });
+  const color = document.querySelector(".color-pilate");
+
+color.addEventListener("click", function(event) {
+
+  const target = event.target;
+
+  if (!target.classList.contains("color-box")) return;
+
+  const selectedColor = target.style.backgroundColor;
+
+  console.log(selectedColor);
+
+  document.body.style.backgroundColor = selectedColor;
+});
+
+
+
+  </script>
+</body>
+</html>

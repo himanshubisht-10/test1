@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    height: 3000px;
+    margin: 0;
+}
+
+#progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    background: green;
+}
+</style>
+</head>
+
+<body>
+
+<div id="progress"></div>
+
+<script>
+let allow = true;
+
+window.addEventListener("scroll", function () {
+
+    if (allow) {
+
+        let scrollTop = window.scrollY;
+        let pageHeight = document.body.scrollHeight - window.innerHeight;
+
+        let percentage = (scrollTop / pageHeight) * 100;
+
+        document.getElementById("progress").style.width = percentage + "%";
+
+        allow = false;
+
+        setTimeout(function () {
+            allow = true;
+        }, 100); // Update every 100ms
+
+    }
+
+});
+
+
+</script>
+
+</body>
+</html>

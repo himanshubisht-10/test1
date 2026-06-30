@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section.hero-section {
+    background: #F7FAFF;
+    padding: 90px 60px;
+}
+.hero-section-container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+h2.hero-section-heading {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000;
+}
+span.heightlight {
+    color: #3066C9;
+}
+span.sublight {
+    color: #000000;
+    font-weight: 700;
+}
+p.hero-sectio-subheading {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+    text-align: center;
+    color: #000;
+}
+.hero-section-main {
+    max-width: 713px;
+    margin: auto;
+}
+
+.hero-section-group {
+    display: flex;
+    justify-content: center;
+}
+button.primary {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 17.5px;
+    letter-spacing: 0%;
+    background: #D03643;
+    padding: 14px 25px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
+@media(max-width:764px){
+    h2.hero-section-heading{
+        font-size:30px;
+        line-height:37px;
+    }
+    section.hero-section{
+        padding:60px 30px;
+    }
+}
+
+.grid-section {
+    padding: 120px 60px;
+    background: #fff;
+}
+
+.grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}.item {
+    background: #eaf0fa;
+    border-radius: 24px;
+    color: #183263;
+    padding: 24px;
+    display: grid;
+}
+.grid-wrap {
+    display: grid;
+    gap: 23px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-text {
+    max-width: 800px;
+    margin: auto;
+}h.grid-head {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+}
+p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+    text-align: center;
+    color: #000;
+}
+
+img {
+    width: 48px;
+    height: auto;
+}
+h6 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}@media(max-width:768px){
+    .grid-wrap {
+        grid-template-columns: 1fr;
+        gap:12px;
+    }.grid-section{
+        padding:60px 20px;
+    }
+
+}
+    
+section.faq-section {
+    padding: 120px 60px;
+    background: gray;
+}
+.faq-container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.faq-wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+h4.faq-title {
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+}
+.faq-question {
+    display: none;
+}
+h2.faq-item-head {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin:0;
+    padding:20px 0;
+}
+p.faq-question-para {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin:0;
+}
+
+.faq-item {
+    border-bottom: 1px solid white;
+    color: #383f4d;
+}
+.faq-item-head::after {
+    content: "›";
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    line-height: 150% !important;
+    transform: rotate(90deg);
+}
+.faq-item.active .faq-item-head::after {
+    transform: rotate(270deg);
+}
+.faq-question {
+    display: none;
+}
+section.laq-section {
+    padding: 120px 60px;
+    background: #f4f7f7;
+}.laq-container {
+    max-width: 1120px;
+    margin: auto;
+}.laq-text {
+    max-width: 800px;
+    margin: auto;
+}
+h2.laq-ttl {
+    font-size: 56px;
+    line-height: 62px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #383f4d;
+    margin: 0;
+}p.laq-subtitle {
+    font-size: 20px;
+    line-height: 26px;
+    color: #383f4d;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 40px;
+    line-height: 46px;
+    font-family: pay;
+    color: #383f4d;
+}p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+    text-align: center;
+    color: #383f4d;
+}.laq-alt {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-section-container">
+            <div class="hero-section-wrapper">
+                <div class="hero-section-main">
+                <h2 class="hero-section-heading"><span class="heightlight">Earn reward points</span> on every business expense—even where cards aren’t accepted</h2>
+                <P class="hero-sectio-subheading">Pay your suppliers with your credit card and earn reward points—even if they don’t accept cards.  Start with your existing card rewards, then optionally boost further with PayRewards™.
+               <span class="sublight">$11B+ processed. Trusted by 70,000+ Australian businesses.</span></P>
+                <div class="hero-section-group">
+                <button class="primary">Create your free account →</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="grid-section">
+        <div class="grid-container">
+                <div class="grid-text">
+                    <h class="grid-head">Earn points on every payment </h>
+                        <p>From growing businesses to large operators, Pay.com.au helps you earn rewards on everyday expenses where you’d normally earn less — or none at all.</p>
+                    
+                </div>
+            <div class="grid-wrap">
+                <div class="item">
+                    <img width="97" height="96" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?resize=97%2C96&amp;quality=89&amp;ssl=1" class="pay-responsive-img info-grid-sec__icon"
+                     alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, 72px" 
+                     data-attachment-id="16798" data-permalink="https://pay.com.au/front-page/p1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1" 
+                     data-orig-size="97,96" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                        created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&q
+                        uot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="p1"
+                         data-image-description="" data-image-caption="" 
+                         data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1">
+                         <h6>Xero integration</h6>
+                         <P>Sync transactions seamlessly for effortless reconciliation.</P>
+                </div>
+                <div class="item">
+                    <img width="97" height="96" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?resize=97%2C96&amp;quality=89&amp;ssl=1" class="pay-responsive-img info-grid-sec__icon"
+                     alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, 72px" 
+                     data-attachment-id="16798" data-permalink="https://pay.com.au/front-page/p1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1" 
+                     data-orig-size="97,96" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                        created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&q
+                        uot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="p1"
+                         data-image-description="" data-image-caption="" 
+                         data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1">
+                         <h6>Invite your team</h6>
+                         <P>Manage multiple businesses from one platform and assign roles like bookkeepers or admins.</P>
+                </div>
+                <div class="item">
+                    <img width="97" height="96" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?resize=97%2C96&amp;quality=89&amp;ssl=1" class="pay-responsive-img info-grid-sec__icon"
+                     alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, 72px" 
+                     data-attachment-id="16798" data-permalink="https://pay.com.au/front-page/p1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1" 
+                     data-orig-size="97,96" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                        created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&q
+                        uot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="p1"
+                         data-image-description="" data-image-caption="" 
+                         data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1">
+                         <h6>Custom authorisation</h6>
+                         <P>Manage payment approvals for secure, controlled spending.</P>
+                </div>
+                <div class="item">
+                    <img width="97" height="96" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?resize=97%2C96&amp;quality=89&amp;ssl=1" class="pay-responsive-img info-grid-sec__icon"
+                     alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, 72px" 
+                     data-attachment-id="16798" data-permalink="https://pay.com.au/front-page/p1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1" 
+                     data-orig-size="97,96" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                        created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&q
+                        uot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="p1"
+                         data-image-description="" data-image-caption="" 
+                         data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1">
+                         <h6>Recurring payments</h6>
+                         <P>Automate bills and payments to save time and effort.</P>
+                </div>
+                <div class="item">
+                    <img width="97" height="96" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?resize=97%2C96&amp;quality=89&amp;ssl=1" class="pay-responsive-img info-grid-sec__icon"
+                     alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, 72px" 
+                     data-attachment-id="16798" data-permalink="https://pay.com.au/front-page/p1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1" 
+                     data-orig-size="97,96" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                        created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&q
+                        uot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="p1"
+                         data-image-description="" data-image-caption="" 
+                         data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1">
+                         <h6>Password-free login</h6>
+                         <P>Enjoy secure, fast account access with Passkeys for a safer login experience.</P>
+                </div>
+                <div class="item">
+                    <img width="97" height="96" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?resize=97%2C96&amp;quality=89&amp;ssl=1" class="pay-responsive-img info-grid-sec__icon"
+                     alt="Pay.com.au business payments platform dashboard interface" loading="lazy" decoding="async" fetchpriority="auto" sizes="auto, 72px" 
+                     data-attachment-id="16798" data-permalink="https://pay.com.au/front-page/p1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1" 
+                     data-orig-size="97,96" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                        created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&q
+                        uot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="p1"
+                         data-image-description="" data-image-caption="" 
+                         data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/p1.png?fit=97%2C96&amp;quality=89&amp;ssl=1">
+                         <h6>Share points with staff</h6>
+                         <P>Send points to staff or others in your business.</P>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="faq-wrapper">
+                <div class="faq-text">
+                    <h4 class="faq-title">Popular FAQs</h4>
+                </div>
+                <div class="faq-">
+                    <div class="faq-item">
+                        <h2 class="faq-item-head">What is pay.com.au?
+                        </h2>
+                    <div class="faq-question">
+                        <p class="faq-question-para">pay.com.au is a payment platform that lets Australian
+                        businesses earn rewards on their everyday expenses. Including bills, supplier invoices, ATO
+                        payments, and more.
+                        </p>
+                    </div>
+                </div>
+
+                  <div class="faq-item">
+                        <h2 class="faq-item-head">What are the benefits of using pay.com.au?
+                        </h2>
+                    
+                    <div class="faq-question">
+                        <p class="faq-question-para">pay.com.au is a payment platform that lets Australian
+                        businesses earn rewards on their everyday expenses. Including bills, supplier invoices, ATO
+                        payments, and more.
+
+                        </p>
+                    </div>
+                </div>
+
+                  <div class="faq-item">
+                        <h2 class="faq-item-head">How do I sign-up?
+                        </h2>
+                    
+                    <div class="faq-question">
+                        <p class="faq-question-para">pay.com.au is a payment platform that lets Australian
+                        businesses earn rewards on their everyday expenses. Including bills, supplier invoices, ATO
+                        payments, and more.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                        <h2 class="faq-item-head">What does it cost to sign up?
+                        </h2>
+                    
+                    <div class="faq-question">
+                        <p class="faq-question-para">pay.com.au is a payment platform that lets Australian
+                        businesses earn rewards on their everyday expenses. Including bills, supplier invoices, ATO
+                        payments, and more.
+
+                        </p>
+                    </div>
+                </div>
+
+                  <div class="faq-item">
+                        <h2 class="faq-item-head">How easy is the platform to use?
+                        </h2>
+                    
+                    <div class="faq-question">
+                        <p class="faq-question-para">pay.com.au is a payment platform that lets Australian
+                        businesses earn rewards on their everyday expenses. Including bills, supplier invoices, ATO
+                        payments, and more.
+
+                        </p>
+                    </div>
+                </div>
+
+                  <div class="faq-item">
+                        <h2 class="faq-item-head">Do suppliers need to have a pay.com.au account?
+                        </h2>
+                    
+                    <div class="faq-question">
+                        <p class="faq-question-para">pay.com.au is a payment platform that lets Australian
+                        businesses earn rewards on their everyday expenses. Including bills, supplier invoices, ATO
+                        payments, and more.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="laq-section">
+        <div class="laq-container">
+            <div class="laq-wrapper">
+                <div class="laq-text">
+                    <h2 class="laq-ttl">The rewards program that works as hard as you do</h2>
+                    <p class="laq-subtitle">Built for business owners, PayRewards lets you earn PayRewards Points on all your business expenses and unlock a range of business benefits.</p>
+                </div>
+                <div class="laq-alt-wrap">
+                <div class="laq-alt">
+                    <div class="laq-item">
+                        <h4>Airline & Hotel Partners</h4>
+                        <p>Fly Business or First Class with direct transfers to more than 10 leading airline and hotel partners.</p>
+                    </div>
+                    <div class="laq-item">
+                       <img width="1024" height="1024" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/redeem1.png?fit=1024%2C1024&amp;quality=89&amp;ssl=1" class="attachment-large size-large" alt="Pay.com.au business payments platform dashboard interface" 
+                       decoding="async" loading="lazy" data-attachment-id="16795" data-permalink="https://pay.com.au/front-page/redeem1/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/redeem1.png?fit=1056%2C1056&amp;quality=89&amp;ssl=1" 
+                       data-orig-size="1056,1056" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,
+                        &quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="redeem1"
+                         data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/redeem1.png?fit=1024%2C1024&amp;quality=89&amp;ssl=1">
+                </div>
+                </div>
+                
+                <div class="laq-alt">
+                    <div class="laq-item">
+                        <h4>Customised Redemptions</h4>
+                        <p>Gift cards. Products. Invoices. Luxury travel. With PayRewards, it’s your points, your choice. Reward yourself (or others) your way.</p>
+                    </div>
+                    <div class="laq-item">
+                        <img width="1024" height="1024" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/redeem2.png?fit=1024%2C1024&amp;quality=89&amp;ssl=1" 
+                        class="attachment-large size-large" alt="Pay.com.au business payments platform dashboard interface" decoding="async" loading="lazy" data-attachment-id="16796" 
+                        data-permalink="https://pay.com.au/front-page/redeem2/" data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/redeem2.png?fit=1056%2C1056&amp;quality=89&amp;ssl=1" data-orig-size="1056,1056"
+                         data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;
+                            created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,
+                            &quot;orientation&quot;:&quot;0&quot;}" data-image-title="redeem2" data-image-description="" data-image-caption=""
+                             data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/06/redeem2.png?fit=1024%2C1024&amp;quality=89&amp;ssl=1">
+                </div>
+                </div>
+                <div class="laq-alt">
+                    <div class="laq-item">
+                        <h4>Unlock Exclusive Business Benefits</h4>
+                        <p>With PayRewards you unlock exclusive benefits built to power your business. Access bonus point transfers with our travel partners, plus exclusive discounts or offers, through our Member Benefits portal.</p>
+                    </div>
+                
+                    <div class="laq-item">
+                        <img width="803" height="795" src="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?fit=803%2C795&amp;quality=89&amp;ssl=1"
+                         class="attachment-large size-large" alt="Pay.com.au business payments platform dashboard interface" decoding="async" loading="lazy" 
+                         srcset="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?w=803&amp;quality=89&amp;ssl=1 803w, 
+                         https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?resize=300%2C297&amp;quality=89&amp;ssl=1 300w, 
+                         https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?resize=150%2C150&amp;quality=89&amp;ssl=1 150w, 
+                         https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?resize=768%2C760&amp;quality=89&amp;ssl=1 
+                         768w,https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?fit=803%2C795&amp;quality=89&amp;ssl=1&amp;
+                         resize=480%2C480&amp;_jb=custom 1365.2999638319016w" sizes="auto" data-attachment-id="19687" data-permalink="https://pay.com.au/front-page/image-4-5/"
+                          data-orig-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?fit=803%2C795&amp;quality=89&amp;ssl=1" data-orig-size="803,795" data-comments-opened="1" 
+                          data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:
+                            &quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;
+                            ,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Image (4)" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/pay.com.au/wp-content/uploads/2025/09/Image-4.png?fit=803%2C795&amp;quality=89&amp;ssl=1">
+                </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script>
+//         const faqItems = document.querySelectorAll('.faq-item');
+
+// faqItems.forEach((item) => {
+    
+//     const header = item.querySelector('.faq-item-head');
+//     const content = item.querySelector('.faq-question');
+
+//     header.addEventListener('click', () => {
+
+
+//         item.classList.toggle('active');
+//         if (content.style.display === 'block') {
+//             content.style.display = 'none';
+//         } else {
+//             content.style.display = 'block';
+//         }
+
+//     });
+
+// });
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach((item) => {
+
+    const header = item.querySelector(".faq-item-head");
+    const content = item.querySelector(".faq-question");
+
+    header.addEventListener("click", function () {
+
+        // Close all other items
+        faqItems.forEach((otherItem) => {
+
+            if (otherItem !== item) {
+                otherItem.classList.remove("active");
+                otherItem.querySelector(".faq-question").style.display = "none";
+            }
+
+        });
+
+        // Toggle current item
+        if (content.style.display === "block") {
+            content.style.display = "none";
+            item.classList.remove("active");
+        } else {
+            content.style.display = "block";
+            item.classList.add("active");
+        }
+
+    });
+
+});
+
+    
+    </script>
+</body>
+</html>

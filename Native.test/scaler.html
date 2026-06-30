@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .movies {
+    background: red;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 220px;
+    height: 8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 2.2rem;
+}
+select {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    border: none;
+    padding: 3px 20px;
+    font-size: 18px;
+}
+.movies-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 4rem;
+    padding: 19px;
+    flex-wrap: wrap;
+    justify-content: center;
+}h3.heading {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    background: #222;
+    border-radius: 6px;
+    padding: 0.1rem;
+    margin:0;
+}p.price {
+    /* background: radial-gradient(black, transparent); */
+    background: red;
+    color: white;
+    font-size: 1.3rem;
+    padding: revert;
+}
+    </style>
+</head>
+<body>
+    <h2>Book my show</h2>
+    <select>
+        <option value="none">All Movies</option>
+        <option value="action">Action</option>
+        <option value="romance">Romance</option>
+        <option value="thrill">thrill</option>
+        <option value="comedy">comedy</option>
+        <option value="emotion">emotion</option>
+    </select>
+    <div class="movies-container">
+    <div class="movies">
+        <h3 class="heading">matrix</h3>
+        <P class="price" data-category="romance">Rs100</P>
+    </div>
+     <div class="movies">
+        <h3 class="heading">action</h3>
+        <P class="price" data-category="action">Rs100</P>
+        </div>
+     <div class="movies">
+        <h3 class="heading">comedy</h3>
+        <P class="price" data-category="comedy">Rs100</P>
+        </div>
+    <div class="movies">
+        <h3 class="heading">thrill</h3>
+        <P class="price" data-category="thrill">Rs100</P>
+        </div>
+    <div class="movies">
+        <h3 class="heading">emotion</h3>
+        <P class="price" data-category="emotion">Rs100</P>
+    </div>
+</div>
+<script>
+const select = document.querySelector('select');
+const allprices = document.querySelectorAll('.price');
+
+select.addEventListener('change', function () {
+
+    const selected = select.value;
+
+    for (let p of allprices) {
+
+        const category = p.getAttribute("data-category");
+
+        if (selected === "none" || selected === "") {
+            p.parentElement.style.display = "block";
+        }
+        else if (category === selected) {
+            p.parentElement.style.display = "block";
+        }
+        else {
+            p.parentElement.style.display = "none";
+        }
+    }
+});
+</script>
+
+</body>
+</html>

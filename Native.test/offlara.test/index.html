@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .model-overy{
+    display:none;
+}
+
+.show-modal .model-overy{
+    display:block;
+}
+        .model-overy {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}.container {
+    position: relative;
+    z-index: 100000;
+}.product-media {
+    width: 100%;
+    max-width: 500px;
+
+}img.product-media__image {
+    width: 100%;
+    height: auto;
+}
+
+.cards {
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    top: 20%;
+    left: 33%;
+    border: 0.8px solid grey;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+   
+}
+
+.header {
+    background: #333;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 27px;
+}
+.card-body {
+    padding:20px;
+    background:yellow;
+}
+
+.card-subtext {
+    color: #333;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+button.primary  {
+    padding: 11px 24px;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+}
+button.secondary{
+    
+    padding: 11px 24px;
+    border-radius: 6px;
+    background:orangered;
+    color: white;
+    font-size: 18px;
+
+}
+
+.product-media {
+    max-width: 370px;
+    width: 100%;
+    margin: auto;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="model-overy">
+        <div class="container">
+            <div class="cards">
+                <div class="header">
+                    Necklace
+                    <span class="close-arrow">✖</span>
+                </div>
+                <div class="card-body">
+               <div class="product-media" style="--ratio: 0.783783783783783">
+  <img src="//www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=3840" 
+  alt="Half Circle Long Chain Necklace, Rose gold" srcset="//www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=240 240w, 
+  //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=352 352w, //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=832 832w,
+   //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=1200 1200w, //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=1600
+    1600w, //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=1920 1920w, //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=2560 2560w,
+     //www.oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=3840 3840w" width="3840" height="4899" loading="eager" sizes="(min-width: 1862px) 14vw, (min-width: 1596px) 16vw,
+      (min-width: 1330px) 20vw, (min-width: 1064px) 25vw, (min-width: 798px) 33vw, (min-width: 750px) 50vw, 100vw" class="product-media__image" transitiontoproduct="false" data_max_resolution="//www.
+      oflara.com/cdn/shop/products/K10320-201000.png?v=1542623723&amp;width=3840" fetchpriority="auto" style="--focal-point: 50.0% 50.0%;">
+
+  
+</div>     
+<p class="card-subtext">
+    Half Circle Long Chain Necklace, Rose gold
+</p>
+<div class="card-button">
+    <button class="primary">BuyNOW</button>
+    <button class="secondary">Add to cart</button>
+</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script >
+        waitforElement('.shopify-section.section-wrapper',function(){
+            document.querySelector('.shopify-section.section-wrapper').insertAdjacentElement('beforeend',herosection);
+        });
+        
+    
+
+        
+    </script>
+</body>
+</html>

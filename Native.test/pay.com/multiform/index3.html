@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        
+.container {
+    width: 100%;
+    background: #01161e;
+    height: 100vh;
+}
+.Weather1{
+    font-size: 2rem;
+}
+.Weather > div{
+    margin: 0.625rem;
+}
+.Weather {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.temp {
+    font-size: 2rem;
+}
+
+p.city {
+    font-size: 4rem;
+}
+span.localtime {
+    font-size: .75rem;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+    background-color: rgba(180, 177, 177, 0.202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}form#searchform {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    width: 70%;
+}
+
+input.searchfield {
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background: transparent;
+    padding: 1rem 0;
+    border-bottom: 2px solid white;
+    width: 98%;
+}
+
+button {
+    font-size: 1.1rem;
+    background: #4ecdc4;
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Weather">
+            <div class="temp">20</div>
+            <div class="time_location">
+                <p class="city">City Name</p>
+                <span class="localtime">localtime</span>
+            </div>
+            <div class="weather_condition">
+                <img src="" alt="">
+                <span>condition</span>
+            </div>
+        </div>
+        <nav>
+            <form id="searchform">
+                <input placeholder="enter the city name" class="searchfield" type="text" required />
+                <button type="submit">Search</button>
+            </form>
+            </nav>
+        </nav>
+    </div>
+</body>
+</html>
