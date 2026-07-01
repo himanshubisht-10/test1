@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>call() Example</title>
+</head>
+<body>
+
+<script>
+const person1 = {
+  name: "Himanshu"
+};
+
+const person2 = {
+  name: "Manish"
+};
+
+function greet(city, country) {
+  console.log(`Hello, I am ${this.name} from ${city}, ${country}`);
+}
+
+greet.call(person1, "Delhi", "India");
+greet.call(person2, "Mumbai", "India");
+
+const person = {
+  name: "Himanshu"
+};
+
+function greet() {
+  console.log(`Hello, I am ${this.name}`);
+}
+
+const newFunction = greet.bind(person);
+
+newFunction();
+</script>
+
+</body>
+</html>
